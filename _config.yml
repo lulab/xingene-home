@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: XinGene - 新维度基因
+title: 新维度基因
 url: "http://www.XinGene.com"
 baseurl: /
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname: XinGene
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: decode the language of life
+description: XinGene
 author:
   name:
   email:
