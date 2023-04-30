@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
+title: XinGene - 新维度基因
+url: "http://www.XinGene.com"
+baseurl: /
 google_analytics_key:
 google_maps_javascript_api_key:
-disqus_shortname:
+disqus_shortname: XinGene
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Decode the Language of Life
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: XinGene
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - http://www.XinGene.com
 
 # -----
 # Build
