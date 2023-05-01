@@ -5,20 +5,16 @@
     link: /products/
 - links:
   - name: Login
-    link: /
+    link: 
   - name: Join Us
     link: http://docs.XinGene.com/join-us
-    new_window: true
+    new_window: false
 - links:
   - name: Facebook
-    link: https://facebook.com/
-    new_window: true
+    link:
+    new_window: false
     social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com/
+    link:
     social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com/
-    social_icon: YouTube
-    new_window: true
+    new_window: false
