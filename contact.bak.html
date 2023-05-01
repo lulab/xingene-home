@@ -2,25 +2,28 @@
 title: Contact
 heading: Get in touch today
 description: We'd love to help you improve your health.
+map:
+  latitude: 39.99939357449486
+  longitude: 116.33201277746714
+  address: "Tsinghua University, Beijing, China"
+  zoom: 13
 ---
+<div class="map" id="map"></div>
+
 
 <div class="contact-box">
 
+
 	<div class="contact-details">
 
-    <h3 class="editable">联系方式</h3>
-		<p>
-    <li>北京检测点：  马先生 188*******</li>
-    <li>上海检测点：  杨先生 188*******</li>
-    <li>苏州检测点：  尹女士 186*******</li>
-
-    </p>
-
-    <h3 class="editable">地址</h3>
-		<li>北京市海淀区清华科技园</li>
-    <li>苏州工业园</li>
+    <h2><a href="http://docs.xingene.com/join-us">Join Us</a></h2>
 
 
+    <h3 class="editable">Address</h3>
+		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+
+		<h3 class="editable">Email</h3>
+		<p><a href="mailto:support@example.com">contact@xingene.com</a></p>
 	</div>
 </div>
 

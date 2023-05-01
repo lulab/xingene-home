@@ -1,0 +1,135 @@
+---
+title: Pricing
+heading: Find the perfect test for you.
+description: All tests include our award winning optimization solution to track your health in real time.
+pricing_table:
+  - name: 肝癌检测 - 单指标检测
+    color: "#8e8e8e"
+    features:
+      - text: ¥180
+        highlight: true
+      - text: 1-3ml 全血
+        highlight: false
+      - text: 1周出报告
+        highlight: false
+      - text: 1个检测点
+        highlight: false
+      - text: 基本指标汇报
+        highlight: false
+      - text: 基本统计模型
+        highlight: false
+    call_to_action:
+      link: /contact/
+      text: Get started
+  - name: 肝癌检测 - 组合指标检测
+    color: "#4a4a4a"
+    features:
+      - text: ¥380
+        highlight: true
+      - text: 1-3ml 全血
+        highlight: false
+      - text: 1周出报告
+        highlight: false
+      - text: 3个检测点
+        highlight: false
+      - text: 基本指标汇报
+        highlight: false
+      - text: 基本统计模型
+        highlight: false
+    call_to_action:
+      link: /contact/
+      text: Get started
+  - name: 泛癌检测
+    color: "#000000"
+    features:
+      - text: ¥7980
+        highlight: true
+      - text: 3-5ml 全血
+        highlight: false
+      - text: 2周出报告
+        highlight: false
+      - text: 全转录组检测，5G 数据量
+        highlight: false
+      - text: 检测结果深度解读
+        highlight: false
+      - text: 最新深度学习模型
+        highlight: false
+    call_to_action:
+      link: /contact/
+      text: Get started
+faq:
+  - question: What types of payment do you accept?
+    answer: Credit cards including MasterCard, Visa or American Express; Wechat Pay; Ali Pay.
+
+  - question: Do you offer pricing for nonprofit organizations?
+    answer: Yes, contact us and we'll set you up on our nonprofit pricing.
+
+---
+
+<h2><a href="https://cloud.tsinghua.edu.cn/f/675e0ba682054813b529/">肝癌和泛癌无创检测产品手册</a></h2>
+<div class="plans">
+	{% for plan in page.pricing_table %}
+		<ul class="plan">
+			<li style="background: {{ plan.color }}">
+
+				<h3>{{ plan.name }}</h3>
+
+			</li>
+			{% for feature in plan.features %}
+				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
+			{% endfor %}
+
+			{% if plan.call_to_action %}
+				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+			{% endif %}
+		</ul>
+	{% endfor %}
+</div>
+<hr>
+<p>
+<b>相关报道:</b>
+<br>
+
+<li><a href="https://mp.weixin.qq.com/s/sbM2M_uZhuUXttdumdBCJQ">2022.07. | 王鹏远/鲁志/徐振江团队合作发表泛癌早诊研究新成果</a></li>
+<li><a href="https://www.seqchina.cn/13047.html">2020.11. | 清华大学鲁志、海军军医大学殷建华和国家肝癌科学中心陈磊课题组揭示针对肝癌AFP阴性诊断和早期诊断的血液非编码RNA标志物</a></li>
+<li><a href="https://www.seqchina.cn/11102.html">2019.12. | “披着羊皮的狼”——癌症转移的新面纱 | 清华大学王栋、鲁志Cell Res发文揭示肿瘤转移新模型</a></li>
+<li><a href="https://www.seqchina.cn/9578.html">2019.5. | 清华大学鲁志研究团队与天津、上海研究团队联合发布液体活检新成果！多种非编码RNA结构域或可作为稳定的肝癌无创诊断标志物</a></li>
+<li><a href="https://www.ebiotrade.com/newsf/2017-2/2017228174413583.htm">2017.3. | 清华大学，东方肝胆医院发表Nature子刊解析与癌症有关的lncRNA</a></li>
+<li><a href="https://m.sohu.com/n/472285488/">2016.11. | 利用生物信息学发现基因组暗物质– 清华大学鲁志实验室非编码RNA软件系列介绍 </a></li>
+
+</p>
+<p>
+<b>相关专利和科研成果:</b>
+<br>
+
+<li>基于机器学习的生物信息方法RNAfinder（专利号：201610806928.8）(Science 2010; Genome Res. 2011; Nucleic Acids Res. 2015;2017a;2018)</li>
+<li>癌症相关的RNA数据库（著作权号：2016R11S367236）(Genome Biology 2017; Nucleic Acids Res. 2017b;2019)</li>
+<li>针对肝癌早期检测和复发监测的一个新型非编码exRNA标志物（专利号:201811009464.3）(Nature Comminications 2017; Clinical Chemistry 2019)</li>
+<li>痕量RNA捕获和测序技术i-SMART (专利号：201810607652X）(Briefings in Bioinformatics 2018; Cell Research 2020)</li>
+<li>一种用于肝细胞癌早期筛查和复发监测的系统 (专利号：202010927225.7)（Theranostics 2021)</li>
+<li>体液样本中鉴定新型exRNA生物标志物的机器学习方法 (专利申请号：202010618721.4)</li>
+</p>
+<p>
+<b>相关在研项目:</b>
+<br>
+<li>国家自然科学基金 面上项目，3217040246，体液多组学数据整合的生物信息学研究及其在癌症无创检测上的应用，2022-2025 主持</li>
+<li>国家自然科学基金 面上项目，81972798，针对癌症诊断和预后的新型体液exRNA标志物的研究，2020-2023 主持</li>
+<li>国家“凤凰工程” 技术创新开放共享课题，2021-NCPSB-005，多组学整合的生物信息学研究，2021/07-2023/06 主持</li>
+<li>清华大学精准医学研究院 精准医疗战略项目， 基于多组学数据的智能化中晚期肝癌转化治疗决策研究，2022/08-2025/07 主持</li>
+<li>清华大学国强研究院 人工智能与机器人项目，2021GQG1020，生物调控网络知识启发下的新型AI模型的构建及其在癌症早诊上的应用，2022/04-2024/03 主持</li>
+<li>清华大学春风基金，2021Z99CFY022，针对微生物感染的新型核酸检测技术研发，2021/09-2023/09 主持</li>
+<li>Bayer AI制药项目, AI driven drug design targeting RNAs，2023-2024 主持</li>
+
+</p>
+<hr>
+{% if page.faq %}
+	<h2>Pricing FAQ</h2>
+	<dl class="faq">
+		{% for item in page.faq %}
+			<div>
+				<dt>{{ item.question }}</dt>
+				<dd>{{ item.answer }}</dd>
+			</div>
+		{% endfor %}
+	</dl>
+{% endif %}
