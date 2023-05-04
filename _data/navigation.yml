@@ -2,6 +2,10 @@
   link: /
   new_window: false
   highlight: false
+- name: Join US
+  link: /hr/2023/05/01/join-us
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false

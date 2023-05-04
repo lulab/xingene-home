@@ -5,9 +5,9 @@
     link: /products/
 - links:
   - name: Login
-    link: 
+    link:
   - name: Join Us
-    link: http://docs.XinGene.com/join-us
+    link: /hr/2023/05/01/join-us
     new_window: false
 - links:
   - name: Facebook
